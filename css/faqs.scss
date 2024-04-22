@@ -1,0 +1,95 @@
+.faqs {
+  background-color: #191c23;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .inner_faqs {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+
+    .content {
+      width: 50%;
+      color: #ffffff;
+
+      h3 {
+        color: #6D0E12;
+      }
+
+      .accordion {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+        margin-top: 60px;
+
+        .accordion-item {
+          .accordion-item-description-wrapper {
+            display: grid;
+            grid-template-rows: 0fr;
+            overflow: hidden;
+            transition: var(--transition);
+
+            & hr {
+              border: none;
+              border-top: 1px solid #cccccc;
+              visibility: visible;
+            }
+          }
+
+          &.open {
+            .accordion-item-description-wrapper {
+              grid-template-rows: 1fr;
+            }
+          }
+
+          .accordion-item-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            cursor: pointer;
+            background-color: #6D0F12;
+            border: 1px solid #6D0F12;
+            color: #191c23;
+            border-radius: 5px;
+            font-size: 20px;
+            color: #ffffff;
+
+            .accordion-item-header-title {
+              font-weight: 600;
+            }
+
+            .accordion-item-header-icon {
+              transition: var(--transition);
+            }
+          }
+        }
+
+        .accordion-item.open
+          .accordion-item-header
+          .accordion-item-header-icon {
+          transform: rotate(-180deg);
+        }
+
+        .accordion-item-description {
+          min-height: 0;
+
+          p {
+            padding: 10px;
+            line-height: 1.5;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .faqs_img {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

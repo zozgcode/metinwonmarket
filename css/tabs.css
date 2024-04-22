@@ -1,0 +1,92 @@
+.inner_server .tabs_container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1500px) {
+  .inner_server .tabs_container .tabs {
+    max-width: 1165px;
+    margin: auto;
+  }
+}
+.inner_server .tabs_container .tabs.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.inner_server .tabs_container .tabs.header button {
+  padding: 20px;
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 5px;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.inner_server .tabs_container .tabs.header button img {
+  display: none;
+}
+.inner_server .tabs_container .tabcontent {
+  padding-top: 30px;
+  display: none;
+}
+.inner_server .tabs_container .tabcontent h3 {
+  text-align: center;
+  color: #ffff00;
+}
+.inner_server .tabs_container .tabcontent hr {
+  border: 1px solid #292929;
+}
+.inner_server .tabs_container .tabcontent .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  position: relative;
+  margin-top: 60px;
+}
+.inner_server .tabs_container .tabcontent.active {
+  display: block;
+}
+.inner_server .tabs_container .tabcontentTwo {
+  padding-top: 30px;
+  display: none;
+  border-top: 1px solid #292929;
+}
+.inner_server .tabs_container .tabcontentTwo h3 {
+  text-align: center;
+  color: #ffff00;
+}
+.inner_server .tabs_container .tabcontentTwo hr {
+  border: 1px solid #292929;
+}
+.inner_server .tabs_container .tabcontentTwo .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  position: relative;
+  margin-top: 60px;
+}
+.inner_server .tabs_container .tabcontentTwo.active {
+  display: block;
+}
+
+/* Style the tab buttons */
+.tablink {
+  background-color: #f2f2f2;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.tablink:hover {
+  background-color: #ddd;
+}/*# sourceMappingURL=tabs.css.map */

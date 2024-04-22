@@ -1,0 +1,54 @@
+.footer {
+  background-color: #191C23;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-top: 1px solid #302e2e;
+}
+.footer .inner_footer {
+  min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #ffffff;
+}
+.footer .inner_footer .box {
+  width: 100%;
+  padding: 5px;
+}
+.footer .inner_footer .box .logo_f {
+  font-size: 25px;
+  line-height: 35px;
+}
+.footer .inner_footer .box .payment_method_f {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 30px;
+}
+.footer .inner_footer .box .payment_method_f img {
+  height: 20px;
+}
+.footer .inner_footer .box h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.footer .inner_footer .box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .inner_footer .box ul li a {
+  color: #ffffff;
+  font-size: 17px;
+}
+.footer .inner_footer .box ul li a:hover {
+  text-decoration: underline;
+  color: #FFFF00;
+  transition: all 0.3s ease-in-out;
+}
+.footer .b_footer {
+  border-top: 1px solid #302e2e;
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #ffffff;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,77 @@
+.testimonial {
+  background-color: #191c23;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.testimonial .inner_testimonial {
+  min-height: 300px;
+}
+.testimonial .inner_testimonial .section-title {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.testimonial .inner_testimonial .section-title h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+.testimonial .inner_testimonial .section-title span {
+  font-size: 36px;
+  font-weight: 700;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide {
+  width: 418.667px;
+  margin-right: 20px;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item {
+  box-sizing: content-box;
+  min-height: 320px;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(255, 255, 255, 0.2);
+  background-color: #6D0F12;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: white;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item h4 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 0 45px;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item p {
+  font-style: italic;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: #6D0F12;
+  color: #ffffff;
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item .quote-icon-left,
+.testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item .quote-icon-right {
+  color: #d3af71;
+  font-size: 26px;
+}/*# sourceMappingURL=testimonial.css.map */

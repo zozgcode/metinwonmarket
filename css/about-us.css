@@ -1,0 +1,48 @@
+.about_us {
+  background-color: #191c23;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.about_us .inner_about_us {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_us .inner_about_us .content {
+  width: 50%;
+  color: #ffffff;
+}
+.about_us .inner_about_us .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  color: #6D0F12;
+}
+.about_us .inner_about_us .content p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.about_us .inner_about_us .content .p1 {
+  margin-bottom: 1rem;
+}
+.about_us .inner_about_us .content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+.about_us .inner_about_us .content ul li {
+  font-size: 18px;
+}
+.about_us .inner_about_us .content ul li .fa-circle-check {
+  margin-right: 4px;
+  color: #6D0F12;
+}
+.about_us .inner_about_us .aboutUs_img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=about-us.css.map */

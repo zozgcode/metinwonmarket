@@ -1,0 +1,53 @@
+section.banner_container {
+  padding-top: 70px;
+}
+section.banner_container .banner {
+  height: 100vh;
+  background-image: url("../img/banner_bg.jpg");
+  background-size: cover;
+  background-position: center cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+section.banner_container .banner .inner_banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+}
+section.banner_container .banner .inner_banner h3 {
+  font-size: 45px;
+  color: #ffffff;
+  line-height: 50px;
+}
+@media screen and (max-width: 1200px) {
+  section.banner_container .banner .inner_banner h3 {
+    padding-left: 20px;
+  }
+}
+section.banner_container .banner .inner_banner .b_desc {
+  color: #ffffff;
+  font-size: 20px;
+  max-width: 600px;
+}
+@media screen and (max-width: 1200px) {
+  section.banner_container .banner .inner_banner .b_desc {
+    padding-left: 20px;
+  }
+}
+section.banner_container .banner .inner_banner .b_btn {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+@media screen and (max-width: 1200px) {
+  section.banner_container .banner .inner_banner .b_btn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,52 @@
+.why_choose_us {
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 130px;
+
+  .inner_why_choose_us {
+    min-height: 300px;
+
+    h3 {
+      text-decoration: underline;
+      color: #191c23;
+      text-align: center;
+    }
+    .content {
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 20px;
+      .box {
+        width: 100%;
+        // border: 1px solid #ffff00;
+        border-radius: 8px;
+        padding: 30px;
+        min-height: 150px;
+        text-align: center;
+
+        &:hover {
+          background-color: #191c23;
+          transition: 0.3s ease-in-out;
+          color: #ffffff;
+        }
+
+        h5 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          font-size: 24px;
+          font-weight: 600;
+          padding: 0;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

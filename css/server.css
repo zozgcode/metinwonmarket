@@ -1,0 +1,15 @@
+.server {
+  background-color: #191c23;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.server .inner_server {
+  min-height: 300px;
+}
+.server .inner_server .title {
+  margin-bottom: 40px;
+}
+.server .inner_server .title h3 {
+  color: #ffffff;
+  text-align: center;
+}/*# sourceMappingURL=server.css.map */

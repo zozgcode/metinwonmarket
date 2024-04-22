@@ -1,0 +1,46 @@
+.why_choose_us {
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.why_choose_us .inner_why_choose_us {
+  min-height: 300px;
+}
+.why_choose_us .inner_why_choose_us h3 {
+  text-decoration: underline;
+  color: #191c23;
+  text-align: center;
+}
+.why_choose_us .inner_why_choose_us .content {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.why_choose_us .inner_why_choose_us .content .box {
+  width: 100%;
+  border-radius: 8px;
+  padding: 30px;
+  min-height: 150px;
+  text-align: center;
+}
+.why_choose_us .inner_why_choose_us .content .box:hover {
+  background-color: #191c23;
+  transition: 0.3s ease-in-out;
+  color: #ffffff;
+}
+.why_choose_us .inner_why_choose_us .content .box h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.why_choose_us .inner_why_choose_us .content .box p {
+  font-size: 18px;
+  line-height: 30px;
+}/*# sourceMappingURL=why_choose_us.css.map */
