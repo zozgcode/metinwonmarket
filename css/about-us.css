@@ -2,6 +2,8 @@
   background-color: #191c23;
   padding-top: 100px;
   padding-bottom: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .about_us .inner_about_us {
   min-height: 300px;
@@ -18,7 +20,7 @@
   font-size: 26px;
   margin-bottom: 1rem;
   text-decoration: underline;
-  color: #6D0F12;
+  color: #6d0f12;
 }
 .about_us .inner_about_us .content p {
   font-size: 18px;
@@ -38,11 +40,21 @@
 }
 .about_us .inner_about_us .content ul li .fa-circle-check {
   margin-right: 4px;
-  color: #6D0F12;
+  color: #6d0f12;
 }
 .about_us .inner_about_us .aboutUs_img {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .about_us .inner_about_us {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_us .inner_about_us .content,
+  .about_us .inner_about_us .aboutUs_img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=about-us.css.map */

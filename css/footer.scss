@@ -3,16 +3,19 @@
   padding-top: 70px;
   padding-bottom: 70px;
   border-top: 1px solid #302e2e;
+  padding-left: 20px;
+    padding-right: 20px;
 
   .inner_footer {
     min-height: 150px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
     color: #ffffff;
 
     .box {
-      width: 100%;
+      width: 200px;
       padding: 5px;
 
       .logo_f {

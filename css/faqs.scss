@@ -7,14 +7,16 @@
     min-height: 300px;
     display: flex;
     justify-content: space-between;
-    // align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
 
     .content {
       width: 50%;
       color: #ffffff;
 
       h3 {
-        color: #6D0E12;
+        color: #6d0e12;
       }
 
       .accordion {
@@ -50,8 +52,8 @@
             justify-content: space-between;
             padding: 10px;
             cursor: pointer;
-            background-color: #6D0F12;
-            border: 1px solid #6D0F12;
+            background-color: #6d0f12;
+            border: 1px solid #6d0f12;
             color: #191c23;
             border-radius: 5px;
             font-size: 20px;
@@ -90,6 +92,32 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+
+      .content, .faqs_img{
+        width: 100%;
+      }
+      .content {
+        .accordion{
+          max-width: 100%;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    @media screen and (min-width: 1500px) {
+      .content, .faqs_img{
+        width: 100%;
+      }
+      .content {
+        .accordion{
+          max-width: 100%;
+          margin-bottom: 30px;
+        }
+      }
     }
   }
 }

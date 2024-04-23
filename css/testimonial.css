@@ -4,6 +4,7 @@
   padding-bottom: 130px;
 }
 .testimonial .inner_testimonial {
+  padding: 20px;
   min-height: 300px;
 }
 .testimonial .inner_testimonial .section-title {

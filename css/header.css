@@ -162,7 +162,7 @@ header .inner_header .mobile_overlay {
     visibility: visible;
   }
 }
-header .inner_header nav .logo {
+header .inner_header nav .mobile-logo {
   display: none;
 }
 header .inner_header nav ul {
@@ -182,7 +182,7 @@ header .inner_header nav ul li a.active {
 }
 @media screen and (max-width: 1023px) {
   header .inner_header nav ul li a.active {
-    color: #ffffff; /* Change color to indicate active link */
+    color: #191c23; /* Change color to indicate active link */
     border-bottom: 3px solid black;
   }
 }
@@ -214,12 +214,9 @@ header .inner_header nav ul li a:hover::after, header .inner_header nav ul li a:
     padding-top: 50px;
     transition: left 0.3s ease;
   }
-  header .inner_header nav .logo {
+  header .inner_header nav .mobile-logo {
     width: 327px;
     display: block;
-    font-size: 10px;
-    color: #000000;
-    line-height: 35px;
     padding-left: 16px;
     padding-right: 10px;
     margin-bottom: 30px;
@@ -227,7 +224,12 @@ header .inner_header nav ul li a:hover::after, header .inner_header nav ul li a:
     align-items: center;
     justify-content: space-between;
   }
-  header .inner_header nav .logo svg {
+  header .inner_header nav .mobile-logo h2 {
+    color: #191c23;
+    font-size: 26px;
+    line-height: 35px;
+  }
+  header .inner_header nav .mobile-logo svg {
     position: relative;
     top: -30px;
   }

@@ -164,7 +164,7 @@ header {
     }
 
     nav {
-      .logo {
+      .mobile-logo {
         display: none;
       }
       ul {
@@ -185,7 +185,7 @@ header {
               border-bottom: 3px solid #6d0f12;
 
               @media screen and (max-width: 1023px) {
-                color: #ffffff; /* Change color to indicate active link */
+                color: #191c23; /* Change color to indicate active link */
                 border-bottom: 3px solid black;
               }
             }
@@ -223,19 +223,21 @@ header {
         padding-top: 50px;
         transition: left 0.3s ease;
 
-        .logo {
+        .mobile-logo {
           width: 327px;
           display: block;
-          font-size: 10px;
-          // font-family: "Press Start 2P", system-ui;
-          color: #000000;
-          line-height: 35px;
           padding-left: 16px;
           padding-right: 10px;
           margin-bottom: 30px;
           display: flex;
           align-items: center;
           justify-content: space-between;
+
+          h2 {
+            color: #191c23;
+            font-size: 26px;
+            line-height: 35px;
+          }
 
           svg {
             position: relative;
