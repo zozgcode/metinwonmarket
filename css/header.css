@@ -109,7 +109,7 @@ header .inner_header {
 header .inner_header .hamburger {
   display: none;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 900px) {
   header .inner_header .hamburger {
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ header .inner_header .logo h2 {
     display: none;
   }
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 900px) {
   header .inner_header .logo {
     left: 50px;
   }
@@ -144,7 +144,7 @@ header .inner_header .logo h2 {
 header .inner_header .mobile_overlay {
   display: none;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 900px) {
   header .inner_header .mobile_overlay {
     position: fixed;
     left: 0;
@@ -180,7 +180,7 @@ header .inner_header nav ul li a.active {
   color: #6d0f12; /* Change color to indicate active link */
   border-bottom: 3px solid #6d0f12;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 900px) {
   header .inner_header nav ul li a.active {
     color: #191c23; /* Change color to indicate active link */
     border-bottom: 3px solid black;
@@ -201,7 +201,7 @@ header .inner_header nav ul li a:hover::after, header .inner_header nav ul li a:
   opacity: 1;
   transform: translate3d(0, 0.2em, 0);
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 900px) {
   header .inner_header nav {
     position: fixed;
     top: 0;

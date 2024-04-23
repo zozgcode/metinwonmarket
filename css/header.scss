@@ -109,7 +109,7 @@ header {
     .hamburger {
       display: none;
 
-      @media screen and (max-width: 1023px) {
+      @media screen and (max-width: 900px) {
         display: flex;
         flex-direction: column;
         gap: 4px;
@@ -137,14 +137,14 @@ header {
           display: none;
         }
       }
-      @media screen and (max-width: 1023px) {
+      @media screen and (max-width: 900px) {
         left: 50px;
       }
     }
 
     .mobile_overlay {
       display: none;
-      @media screen and (max-width: 1023px) {
+      @media screen and (max-width: 900px) {
         position: fixed;
         left: 0;
         right: 0;
@@ -184,7 +184,7 @@ header {
               color: #6d0f12; /* Change color to indicate active link */
               border-bottom: 3px solid #6d0f12;
 
-              @media screen and (max-width: 1023px) {
+              @media screen and (max-width: 900px) {
                 color: #191c23; /* Change color to indicate active link */
                 border-bottom: 3px solid black;
               }
@@ -211,7 +211,7 @@ header {
         }
       }
 
-      @media screen and (max-width: 1023px) {
+      @media screen and (max-width: 900px) {
         position: fixed;
         top: 0;
         left: -100%;
