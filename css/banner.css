@@ -50,4 +50,15 @@ section.banner_container .banner .inner_banner .b_btn {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+@media screen and (max-width: 767px) {
+  section.banner_container .banner {
+    height: 550px;
+  }
+}
+@media screen and (max-width: 450px) {
+  section.banner_container .banner {
+    background-image: url("../img/mobile-banner_bg.jpg");
+    height: 450px;
+  }
 }/*# sourceMappingURL=banner.css.map */
