@@ -34,6 +34,7 @@ section.banner_container .banner .inner_banner .b_desc {
   color: #ffffff;
   font-size: 20px;
   max-width: 600px;
+  line-height: 30px;
 }
 @media screen and (max-width: 1200px) {
   section.banner_container .banner .inner_banner .b_desc {
