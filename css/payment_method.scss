@@ -1,6 +1,6 @@
 .payment_method {
   padding: 20px;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
   background-color: #ffffff;
 
@@ -18,12 +18,21 @@
     justify-content: center;
 
     .logo_slide {
-      height: min-content;
-      width: max-content;
-      width: 150px;
+      width: 150px; /* Set the desired width */
+      height: auto;
+      margin: 10px; /* Adjust margin as needed */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
+
+      @media screen and (max-width: 1500px) {
+        width: 300px;
+      }
+
       img {
-        width: 100%;
-        height: 40px;
+        max-width: 100%;
+        height: auto;
       }
     }
   }
