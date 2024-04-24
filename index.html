@@ -317,7 +317,7 @@
       <!-- <div class="title">
         <h3>Payment Method</h3>
       </div> -->
-      <div class="swiper mySwiper">
+      <div class="swiper paymentMethodSwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="logo_slide">
@@ -1490,15 +1490,17 @@
     </script>
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 6,
+      var swiper = new Swiper(".paymentMethodSwiper", {
+        slidesPerView: 4,
         spaceBetween: 30,
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,
         },
         breakpoints: {
-        
+          768: {
+            slidesPerView: 6,
+          },
           1500: {
             slidesPerView: 5,
           },
@@ -1507,7 +1509,7 @@
     </script>
     <script>
       var swiper = new Swiper(".testimonial_swipe", {
-        slidesPerView: 3,
+        slidesPerView: 1,
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,
@@ -1519,16 +1521,12 @@
         },
         breakpoints: {
           640: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          768: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          1024: {
+          768: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 20,
           },
         },
       });

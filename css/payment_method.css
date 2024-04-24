@@ -25,6 +25,11 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 640px) {
+  .payment_method .swiper-slide .logo_slide {
+    width: 300px;
+  }
+}
 @media screen and (max-width: 1500px) {
   .payment_method .swiper-slide .logo_slide {
     width: 300px;

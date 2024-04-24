@@ -46,6 +46,14 @@
 .contact .inner_contact .content .box a .button-49:after {
   width: 100%;
 }
+@media screen and (max-width: 640px) {
+  .contact .inner_contact .content {
+    gap: 35px;
+  }
+  .contact .inner_contact .content .box {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 1500px) {
   .contact .inner_contact .content {
     flex-wrap: nowrap;

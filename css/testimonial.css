@@ -75,4 +75,9 @@
 .testimonial .inner_testimonial .swiper_container .swiper-slide .testimonial-item .quote-icon-right {
   color: #d3af71;
   font-size: 26px;
+}
+@media screen and (max-width: 640px) {
+  .testimonial .inner_testimonial .swiper_container .swiper-slide {
+    margin-right: 0;
+  }
 }/*# sourceMappingURL=testimonial.css.map */

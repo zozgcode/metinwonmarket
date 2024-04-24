@@ -54,6 +54,13 @@
         }
       }
 
+      @media screen and (max-width: 640px) {
+        gap: 35px;
+        .box {
+          width: 100%;
+        }
+      }
+
       @media screen and (min-width: 1500px) {
         flex-wrap: nowrap;
         .box {

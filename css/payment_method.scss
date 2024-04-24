@@ -26,6 +26,10 @@
       align-items: center;
       justify-content: center;
 
+      @media screen and (max-width: 640px) {
+        width: 300px;
+      }
+
       @media screen and (max-width: 1500px) {
         width: 300px;
       }
