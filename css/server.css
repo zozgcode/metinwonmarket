@@ -6,10 +6,23 @@
 .server .inner_server {
   min-height: 300px;
 }
-.server .inner_server .title {
-  margin-bottom: 40px;
-}
-.server .inner_server .title h3 {
-  color: #ffffff;
+.server .inner_server .section-title {
   text-align: center;
+  padding-bottom: 30px;
+}
+.server .inner_server .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #ffffff;
+}
+.server .inner_server .section-title p {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.server .inner_server .section-title p span {
+  color: #fff000;
+  font-weight: bold;
 }/*# sourceMappingURL=server.css.map */
