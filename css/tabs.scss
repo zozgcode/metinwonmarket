@@ -30,10 +30,15 @@
           img {
             display: none;
           }
-          &.active{
+          &.active {
             background-color: #6d0f12;
             border: 1px solid #6d0f12;
           }
+        }
+
+        @media screen and (min-width: 1500px) {
+          gap: 35px;
+          // justify-content: space-between;
         }
       }
     }

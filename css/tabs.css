@@ -37,6 +37,11 @@
   background-color: #6d0f12;
   border: 1px solid #6d0f12;
 }
+@media screen and (min-width: 1500px) {
+  .inner_server .tabs_container .tabs.header {
+    gap: 35px;
+  }
+}
 .inner_server .tabs_container .tabcontent {
   padding-top: 30px;
   display: none;
